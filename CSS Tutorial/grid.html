@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #columncontainer{
+            width: 800px;
+            height: 600px;
+            border: 2px solid black;
+            margin: 100px auto;
+            display: grid;
+            grid-template-columns: 200px 400px 200px;
+        }
+        #col1{
+            background-color: rgb(241, 123, 6);
+        }
+        #col2{
+            background-color: rgb(237, 233, 233);
+
+        }
+        #col3{
+            background-color: rgb(25, 243, 0);
+        }
+        
+        #rowcontainer{
+            width: 900px;
+            height: 600px;
+            border: 2px solid black;
+            display: grid;
+            margin: 50px auto;
+            grid-template-rows: 200px 200px 200px;
+
+        }
+        #row1{
+            background-color: rgb(241, 123, 6);
+        }
+        #row2{
+            background-color: rgb(237, 233, 233);
+
+        }
+        #row3{
+            background-color: rgb(25, 243, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="columncontainer">
+        <div id="col1">COL1</div>
+        <div id="col2">COL2</div>
+        <div id="col3">COL3</div>
+    </div>
+
+        <div id="rowcontainer">
+        <div id="row1">ROW1</div>
+        <div id="row2">ROW2</div>
+        <div id="row3">ROW3</div>
+    </div>
+</body>
+</html>
